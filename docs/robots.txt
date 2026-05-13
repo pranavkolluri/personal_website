@@ -1,1 +1,1 @@
-Sitemap: https://pranavkolluri.github.io/personal_website/sitemap.xml
+Sitemap: https://pranavkolluri.dev/sitemap.xml

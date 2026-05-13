@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Pranav Kolluri"
-  site-url: https://pranavkolluri.github.io/personal_website
+  site-url: https://pranavkolluri.dev
   navbar:
     left:
       - href: index.qmd
@@ -13,6 +13,9 @@ website:
         text: About
       - href: visualization.qmd
         text: Visualization
+
+resources:
+  - CNAME
 
 format:
   html:
