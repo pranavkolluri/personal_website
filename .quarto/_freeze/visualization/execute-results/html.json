@@ -1,0 +1,17 @@
+{
+  "hash": "052b4892aa057e583ddef0cb444c7639",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"PNW Flight Routes: A Flow Map\"\nsubtitle: \"Where does the Pacific Northwest fly?\"\n---\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](visualization_files/figure-html/flow-map-1.png){fig-alt='Arc flow map of domestic flights departing PDX and SEA in 2014, overlaid on a dark US map' width=1056}\n:::\n:::\n\n\n---\n\n## What Kind of Chart Is This?\n\nA **flow map** (also called a *connection map* or *arc map*) is a thematic map that draws lines, often curved arcs, between pairs of geographic locations to represent movement, migration, or communication between them.\n\n| Element | Role |\n|---------|------|\n| **Origin node** | Where flow begins (here: PDX, SEA) |\n| **Destination node** | Where flow ends (US airports) |\n| **Arc** | The connection; visual weight encodes quantity |\n\nFlow maps date back to around 1838, designed by Irish engineer Henry Drury Harness to depict cargo flow across Ireland. Modern implementations use great-circle routes, the shortest path between two points on a sphere, rather than straight lines, which matters especially for long-haul routes.\n\n---\n\n## The Data\n\nThe data come from the [`pnwflights14`](https://github.com/ismayc/pnwflights14) R package, covering **Pacific Northwest departures in calendar year 2014**.\n\nThree tables are used:\n\n- `flights`: ~162,000 rows, one per scheduled departure. Key columns: `origin`, `dest`, `carrier`, `dep_delay`, `distance`.\n- `airports`: one row per airport with FAA code, name, and decimal lat/lon.\n- `airlines`: lookup table mapping IATA carrier codes to full airline names.\n\n**Quantitative variables:** number of flights per route, great-circle arc distance.\n**Qualitative variables:** origin airport (PDX vs. SEA), destination airport code, US state geography.\n\n---\n\n## What Is the Chart Showing?\n\nThe map answers one question: **how is the Pacific Northwest connected to the rest of the country by air?**\n\nKey things a viewer can read:\n\n- **Dominant routes**: thick, bright arcs (PDX/SEA -> LAX, SFO, ORD) are immediately visible.\n- **Geographic reach**: the fan of arcs shows that PNW flyers can reach both coasts directly, though the West Coast dominates in frequency.\n- **PDX vs. SEA differences**: the two origin diamonds allow a reader to trace each airport's routes semi-independently.\n- **Hub-and-spoke structure**: dense arcs toward a few massive hubs (Chicago, San Francisco, Los Angeles) show how most airlines route passengers through central hubs rather than point-to-point, with notable exceptions like Southwest and Alaska who also serve many secondary airports directly.\n\nFlow maps are intentionally designed for the casual observer. For precise counts, a table or bar chart is superior. Their strength is their accessibility: they communicate the shape of a dataset immediately to non-domain experts, which is where I find them most valuable.\n",
+    "supporting": [
+      "visualization_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

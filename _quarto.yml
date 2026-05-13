@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Pranav Kolluri"
+  site-url: https://pranavkolluri.github.io/personal_website
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: visualization.qmd
+        text: Visualization
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

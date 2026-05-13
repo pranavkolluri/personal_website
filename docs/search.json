@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "visualization.html#what-kind-of-chart-is-this",
+    "href": "visualization.html#what-kind-of-chart-is-this",
+    "title": "PNW Flight Routes: A Flow Map",
+    "section": "What Kind of Chart Is This?",
+    "text": "What Kind of Chart Is This?\nA flow map (also called a connection map or arc map) is a thematic map that draws lines, often curved arcs, between pairs of geographic locations to represent movement, migration, or communication between them.\n\n\n\nElement\nRole\n\n\n\n\nOrigin node\nWhere flow begins (here: PDX, SEA)\n\n\nDestination node\nWhere flow ends (US airports)\n\n\nArc\nThe connection; visual weight encodes quantity\n\n\n\nFlow maps date back to around 1838, designed by Irish engineer Henry Drury Harness to depict cargo flow across Ireland. Modern implementations use great-circle routes, the shortest path between two points on a sphere, rather than straight lines, which matters especially for long-haul routes."
+  },
+  {
+    "objectID": "visualization.html#the-data",
+    "href": "visualization.html#the-data",
+    "title": "PNW Flight Routes: A Flow Map",
+    "section": "The Data",
+    "text": "The Data\nThe data come from the pnwflights14 R package, covering Pacific Northwest departures in calendar year 2014.\nThree tables are used:\n\nflights: ~162,000 rows, one per scheduled departure. Key columns: origin, dest, carrier, dep_delay, distance.\nairports: one row per airport with FAA code, name, and decimal lat/lon.\nairlines: lookup table mapping IATA carrier codes to full airline names.\n\nQuantitative variables: number of flights per route, great-circle arc distance. Qualitative variables: origin airport (PDX vs. SEA), destination airport code, US state geography."
+  },
+  {
+    "objectID": "visualization.html#what-is-the-chart-showing",
+    "href": "visualization.html#what-is-the-chart-showing",
+    "title": "PNW Flight Routes: A Flow Map",
+    "section": "What Is the Chart Showing?",
+    "text": "What Is the Chart Showing?\nThe map answers one question: how is the Pacific Northwest connected to the rest of the country by air?\nKey things a viewer can read:\n\nDominant routes: thick, bright arcs (PDX/SEA -&gt; LAX, SFO, ORD) are immediately visible.\nGeographic reach: the fan of arcs shows that PNW flyers can reach both coasts directly, though the West Coast dominates in frequency.\nPDX vs. SEA differences: the two origin diamonds allow a reader to trace each airport’s routes semi-independently.\nHub-and-spoke structure: dense arcs toward a few massive hubs (Chicago, San Francisco, Los Angeles) show how most airlines route passengers through central hubs rather than point-to-point, with notable exceptions like Southwest and Alaska who also serve many secondary airports directly.\n\nFlow maps are intentionally designed for the casual observer. For precise counts, a table or bar chart is superior. Their strength is their accessibility: they communicate the shape of a dataset immediately to non-domain experts, which is where I find them most valuable."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pranav Kolluri",
+    "section": "",
+    "text": "Pranav Kolluri\n\n\n\nI’m a first-year Biomedical Engineering PhD student at OHSU, working in Dr. Xubo Song’s lab on multimodal single-cell data integration and representation learning.\nThis site is part of BMI 525: Data Visualization for Biomedical Informatics. Visit the About page for my full background, or Visualization for a flow map of Pacific Northwest flight routes built with R and ggplot2."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Pranav Kolluri"
+  },
+  {
+    "objectID": "about.html#bio",
+    "href": "about.html#bio",
+    "title": "About Me",
+    "section": "Bio",
+    "text": "Bio\nI am a first-year graduate student in the Biomedical Engineering program at Oregon Health & Science University (OHSU), where I work in the lab of Dr. Xubo Song. My research sits at the intersection of machine learning and computational biology, with a current focus on multimodal single-cell data integration — for example, jointly modeling scRNA-seq and scATAC-seq to translate between modalities and learn unified biological representations. I am also working on problems in hierarchical and equivariant representation learning and reinforcement learning applied to biological systems.\nBefore OHSU, I spent two years as an Aerospace Engineer at NASA Ames Research Center, where I built machine learning systems for real-time flight optimization, trained speech recognition models for air traffic control audio, and simulated electrified aircraft powertrain demonstrations using the National Airspace Digital Twin. I also conducted research at the UCSF Bone Quality Research Laboratory, where I developed CNN and transformer pipelines for automatic motion artifact grading of HR-pQCT scans and investigated how Type 2 Diabetes affects bone vascular structure and fracture risk, work currently being prepared for publication.\nI hold a B.S. in Electrical Engineering and Computer Science with Honors concentration in Molecular and Cellular Biology from UC Berkeley (Class of 2024).\nOutside of research, I enjoy LEGO, gardening, cooking, bird watching, plane spotting, building drones and UAS hardware (or at least trying to!), and 3D printing."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\n\nB.S. Electrical Engineering and Computer Science (Honors concentration in Molecular and Cellular Biology), UC Berkeley, 2024\nM.S./Ph.D. Biomedical Engineering (in progress), OHSU, 2025–present"
+  },
+  {
+    "objectID": "about.html#research-interests",
+    "href": "about.html#research-interests",
+    "title": "About Me",
+    "section": "Research Interests",
+    "text": "Research Interests\n\nMultimodal single-cell omics (scRNA-seq × scATAC-seq integration and translation)\nRepresentation learning for biological data\nReinforcement learning in biomedical contexts\nComputational imaging and deep learning for medical image analysis"
+  },
+  {
+    "objectID": "about.html#skills-tools",
+    "href": "about.html#skills-tools",
+    "title": "About Me",
+    "section": "Skills & Tools",
+    "text": "Skills & Tools\n\n\n\nCategory\nTools\n\n\n\n\nML / DL\nPyTorch, TensorFlow, Scikit-learn, CUDA\n\n\nLanguages\nPython, R, Java, C, C++, Go\n\n\nLow-level / HW\nVerilog, RISC-V ISA, SolidWorks (CAD)\n\n\nData & Viz\ntidyverse, ggplot2, Quarto, MATLAB, SQL\n\n\nInfra\nGit, Linux"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About Me",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: kolluri [at] ohsu.edu\nGitHub: pranavkolluri"
+  }
+]

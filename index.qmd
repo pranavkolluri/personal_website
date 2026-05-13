@@ -1,0 +1,11 @@
+---
+title: "Pranav Kolluri"
+---
+
+![Pranav Kolluri](pjk_headshot.jpg){.profile-photo}
+
+::: {.hero-text}
+I'm a first-year Biomedical Engineering PhD student at OHSU, working in Dr. Xubo Song's lab on multimodal single-cell data integration and representation learning.
+
+This site is part of BMI 525: Data Visualization for Biomedical Informatics. Visit the [About](about.qmd) page for my full background, or [Visualization](visualization.qmd) for a flow map of Pacific Northwest flight routes built with R and ggplot2.
+:::
