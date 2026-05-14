@@ -39,7 +39,7 @@
     "href": "about.html#bio",
     "title": "About Me",
     "section": "Bio",
-    "text": "Bio\nI am a first-year graduate student in the Biomedical Engineering program at Oregon Health & Science University (OHSU), where I work in the lab of Dr. Xubo Song. My research sits at the intersection of machine learning and computational biology, with a current focus on multimodal single-cell data integration, for example, jointly modeling scRNA-seq and scATAC-seq to translate between modalities and learn unified biological representations. I am also working on problems in hierarchical and equivariant representation learning and reinforcement learning applied to biological systems.\nBefore OHSU, I spent two years as an Aerospace Engineer at NASA Ames Research Center, where I built machine learning systems for real-time flight optimization, trained speech recognition models for air traffic control audio, and simulated electrified aircraft powertrain demonstrations using the National Airspace Digital Twin. I also conducted research at the UCSF Bone Quality Research Laboratory, where I developed CNN and transformer pipelines for automatic motion artifact grading of HR-pQCT scans and investigated how Type 2 Diabetes affects bone vascular structure and fracture risk, work currently being prepared for publication.\nI hold a B.S. in Electrical Engineering and Computer Science with Honors concentration in Molecular and Cellular Biology from UC Berkeley (Class of 2024).\nOutside of research, I enjoy LEGO, gardening, cooking, bird watching, plane spotting, building drones and UAS hardware (or at least trying to!), and 3D printing."
+    "text": "Bio\nI am a first-year graduate student in the Biomedical Engineering program at Oregon Health & Science University (OHSU), where I work in the lab of Dr. Xubo Song. My research sits at between machine learning and computational biology, with a current focus on multimodal single-cell data integration, for example, jointly modeling scRNA-seq and scATAC-seq to translate between modalities and learn unified biological representations. I am also working on problems in hierarchical and equivariant representation learning and reinforcement learning applied to biological systems.\nBefore OHSU, I spent two years as an Aerospace Engineer at NASA Ames Research Center, where I built machine learning systems for real-time airport traffic and routing optimization, trained speech recognition models and workflows for air traffic control audio, and simulated electrified aircraft powertrain demonstrations using the National Airspace Digital Twin. I also conducted research at the UCSF Bone Quality Research Laboratory, where I developed CNN and transformer pipelines for automatic motion artifact grading of HR-pQCT scans and investigated how Type 2 Diabetes affects bone vascular structure and fracture risk, work currently being prepared for publication.\nI hold a B.S. in Electrical Engineering and Computer Science with Honors concentration in Molecular and Cellular Biology from UC Berkeley (Class of 2024).\nOutside of research, I enjoy LEGO, gardening, cooking, bird watching, plane spotting, building drones and UAS hardware (or at least trying to!), and 3D printing."
   },
   {
     "objectID": "about.html#education",
@@ -53,14 +53,14 @@
     "href": "about.html#research-interests",
     "title": "About Me",
     "section": "Research Interests",
-    "text": "Research Interests\n\nMultimodal single-cell omics (scRNA-seq × scATAC-seq integration and translation)\nRepresentation learning for biological data\nReinforcement learning in biomedical contexts\nComputational imaging and deep learning for medical image analysis"
+    "text": "Research Interests\n\nMultimodal single-cell omics\nRepresentation learning for biological data\nReinforcement learning in biomedical contexts\nComputational imaging and deep learning for medical image analysis\nExplainability and interpretability in machine learning models for biology"
   },
   {
     "objectID": "about.html#skills-tools",
     "href": "about.html#skills-tools",
     "title": "About Me",
     "section": "Skills & Tools",
-    "text": "Skills & Tools\n\n\n\nCategory\nTools\n\n\n\n\nML / DL\nPyTorch, TensorFlow, Scikit-learn, CUDA\n\n\nLanguages\nPython, R, Java, C, C++, Go\n\n\nLow-level / HW\nVerilog, RISC-V ISA, SolidWorks (CAD)\n\n\nData & Viz\ntidyverse, ggplot2, Quarto, MATLAB, SQL\n\n\nInfra\nGit, Linux"
+    "text": "Skills & Tools\n\n\n\nCategory\nTools\n\n\n\n\nML / DL\nPyTorch, TensorFlow, Scikit-learn, CUDA\n\n\nLanguages\nPython, R, Java, C, C++, Go\n\n\nLow-level / HW\nVerilog, RISC-V ISA, SolidWorks (CAD)\n\n\nData & Viz\ntidyverse, ggplot2, Quarto, MATLAB, SQL\n\n\nInfra\nGit, Linux, all the essential tools"
   },
   {
     "objectID": "about.html#contact",
