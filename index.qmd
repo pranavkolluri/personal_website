@@ -8,7 +8,9 @@ toc: false
 ```
 
 ::: {.hero}
-![Pranav Kolluri](pjk_headshot.jpg){.profile-photo}
+```{=html}
+<img src="pjk_headshot.jpg" alt="Pranav Kolluri" class="profile-photo">
+```
 
 # Pranav Kolluri
 
