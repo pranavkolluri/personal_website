@@ -215,6 +215,14 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("[data-email-user]").forEach(function (el) {
+    var address = el.getAttribute("data-email-user") + "@" + el.getAttribute("data-email-domain");
+    el.setAttribute("href", "mailto:" + address);
+  });
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

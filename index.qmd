@@ -20,12 +20,14 @@ I'm a first-year Biomedical Engineering PhD student at OHSU, working in Dr. Xubo
 This site is part of BMI 525: Data Visualization for Biomedical Informatics. Visit the About page for my full background, or Visualization for a flow map of Pacific Northwest flight routes built with R and ggplot2.
 :::
 
-::: {.button-row}
-[About](about.qmd){.btn-pill .primary}
-[Visualization](visualization.qmd){.btn-pill .secondary}
-[GitHub](https://github.com/pranavkolluri){.btn-pill .secondary target="_blank" rel="noopener"}
-[Email](mailto:kolluri@ohsu.edu){.btn-pill .secondary}
-:::
+```{=html}
+<div class="button-row">
+  <a class="btn-pill primary" href="about.qmd">About</a>
+  <a class="btn-pill secondary" href="visualization.qmd">Visualization</a>
+  <a class="btn-pill secondary" href="https://github.com/pranavkolluri" target="_blank" rel="noopener">GitHub</a>
+  <a class="btn-pill secondary" href="#" data-email-user="kolluri" data-email-domain="ohsu.edu">Email</a>
+</div>
+```
 :::
 
 ::: {.section-label}
