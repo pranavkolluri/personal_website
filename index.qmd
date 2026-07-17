@@ -1,11 +1,61 @@
 ---
 title: "Pranav Kolluri"
+toc: false
 ---
 
+```{=html}
+<style>#title-block-header { display: none; }</style>
+```
+
+::: {.hero}
 ![Pranav Kolluri](pjk_headshot.jpg){.profile-photo}
 
-::: {.hero-text}
+# Pranav Kolluri
+
+::: {.intro}
 I'm a first-year Biomedical Engineering PhD student at OHSU, working in Dr. Xubo Song's lab on multimodal single-cell data integration and representation learning.
 
-This site is part of BMI 525: Data Visualization for Biomedical Informatics. Visit the [About](about.qmd) page for my full background, or [Visualization](visualization.qmd) for a flow map of Pacific Northwest flight routes built with R and ggplot2.
+This site is part of BMI 525: Data Visualization for Biomedical Informatics. Visit the About page for my full background, or Visualization for a flow map of Pacific Northwest flight routes built with R and ggplot2.
 :::
+
+::: {.button-row}
+[About](about.qmd){.btn-pill .primary}
+[Visualization](visualization.qmd){.btn-pill .secondary}
+[GitHub](https://github.com/pranavkolluri){.btn-pill .secondary target="_blank" rel="noopener"}
+[Email](mailto:kolluri@ohsu.edu){.btn-pill .secondary}
+:::
+:::
+
+::: {.section-label}
+Research Interests
+:::
+
+```{=html}
+<div class="tag-row">
+  <span class="tag">Multimodal single-cell omics</span>
+  <span class="tag">Representation learning for biological data</span>
+  <span class="tag">Reinforcement learning in biomedical contexts</span>
+  <span class="tag">Computational imaging and deep learning for medical image analysis</span>
+  <span class="tag">Explainability and interpretability in ML models for biology</span>
+</div>
+```
+
+```{=html}
+<div class="card-row">
+  <a class="info-card" href="about.qmd">
+    <span class="card-icon">🧬</span>
+    <h3>About</h3>
+    <p>Full background, education, and skills — from NASA Ames to the UCSF Bone Quality Research Laboratory to OHSU.</p>
+  </a>
+  <a class="info-card" href="visualization.qmd">
+    <span class="card-icon">🗺️</span>
+    <h3>Visualization</h3>
+    <p>A flow map of Pacific Northwest flight routes, built with R and ggplot2.</p>
+  </a>
+  <a class="info-card" href="https://github.com/pranavkolluri" target="_blank" rel="noopener">
+    <span class="card-icon">💻</span>
+    <h3>GitHub</h3>
+    <p>pranavkolluri on GitHub.</p>
+  </a>
+</div>
+```
