@@ -49,5 +49,5 @@ Outside of research, I enjoy LEGO, gardening, cooking, bird watching, plane spot
 
 ## Contact
 
-- **Email**: kolluri [at] ohsu.edu
+- **Email**: `<a href="#" data-email-user="kolluri" data-email-domain="ohsu.edu">kolluri [at] ohsu.edu</a>`{=html}
 - **GitHub**: [pranavkolluri](https://github.com/pranavkolluri)

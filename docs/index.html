@@ -148,7 +148,10 @@ ul.task-list li input[type="checkbox"] {
 <p>This site is part of BMI 525: Data Visualization for Biomedical Informatics. Visit the About page for my full background, or Visualization for a flow map of Pacific Northwest flight routes built with R and ggplot2.</p>
 </div>
 <div class="button-row">
-<p><a href="./about.html" class="btn-pill primary">About</a> <a href="./visualization.html" class="btn-pill secondary">Visualization</a> <a href="https://github.com/pranavkolluri" class="btn-pill secondary" target="_blank" rel="noopener">GitHub</a> <a href="mailto:kolluri@ohsu.edu" class="btn-pill secondary">Email</a></p>
+  <a class="btn-pill primary" href="./about.html">About</a>
+  <a class="btn-pill secondary" href="./visualization.html">Visualization</a>
+  <a class="btn-pill secondary" href="https://github.com/pranavkolluri" target="_blank" rel="noopener">GitHub</a>
+  <a class="btn-pill secondary" href="#" data-email-user="kolluri" data-email-domain="ohsu.edu">Email</a>
 </div>
 </section>
 </div>
@@ -183,6 +186,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("[data-email-user]").forEach(function (el) {
+    var address = el.getAttribute("data-email-user") + "@" + el.getAttribute("data-email-domain");
+    el.setAttribute("href", "mailto:" + address);
+  });
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
